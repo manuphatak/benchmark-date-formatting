@@ -1,0 +1,35 @@
+{
+  "name": "benchmark-date-formatting",
+  "version": "0.0.0",
+  "description": "Benchmarking all of the date formatting packages",
+  "main": "benchmark.js",
+  "type": "module",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuphatak/benchmark-date-formatting.git"
+  },
+  "keywords": [
+    "date-fns",
+    "date",
+    "formatting",
+    "benchmark"
+  ],
+  "author": "Manu Phatak <manu@phatak.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manuphatak/benchmark-date-formatting/issues"
+  },
+  "homepage": "https://github.com/manuphatak/benchmark-date-formatting#readme",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "date-fns": "^2.29.3",
+    "date-fns-tz": "^2.0.0",
+    "date-format": "^4.0.14",
+    "dateformat": "^5.0.3",
+    "fast-date-format": "^2.2.4",
+    "fecha": "^4.2.3",
+    "moment": "^2.22.2",
+    "speed-date": "^1.0.0"
+  }
+}
