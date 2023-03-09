@@ -42,3 +42,10 @@ date-fns/fp/lightFormat (precompiled) x 263,688 ops/sec ±0.83% (91 runs sampled
 
 🏁 🏁 🏁 'speed-date' is the fastest. 🏁 🏁 🏁
 ```
+
+### Summary Analysis
+
+- date-fns has a "light" formatter, which is almost 2x faster: https://date-fns.org/v2.29.3/docs/lightFormat
+- There's a "precompile" strategy mentioned here: https://github.com/date-fns/date-fns/issues/423
+  - This was never implemented has no effect on anything
+- https://github.com/gosquared/speed-date is the fastest, every time
